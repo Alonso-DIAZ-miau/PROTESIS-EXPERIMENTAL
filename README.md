@@ -16,8 +16,8 @@ Se trata de la creación de un aparato capaz de sustituir partes de una mano, la
 
 ## Descripción
 
-[Expliquen en un párrafo qué problema están abordando, para quién y en qué contexto.]
-El principal problema a abordar 
+Abordando el problema de una persona con discapacidad en la vida cotidiana, buscando una solución sencilla, asequible y funcional, de manera que esta, pueda cumplir todas las funciones que la extremidad debiera.
+
 ## Equipo
 
 | Integrantes |
@@ -25,18 +25,15 @@ El principal problema a abordar
 | [Nombre] |
 
 
+## Entrega 00
+En la entrega 00 se encuentra la siguente informacion
+  -*Fenomeno*
+  -*Contexto*
+  -*Usuarios*
+  -*Referentes* 
+  -*Variables*
+  -*Hipotesis de dispositvo*
 
-## Desafío o problematica  inicial
-
-[Describan el desafío con sus propias palabras.]
-
-## Objetivo 
-
-[Describan del objetivo del proyecto ]
-
-## Usuarios y contexto
-
-[¿Quiénes viven el problema? ¿Dónde ocurre? ¿Qué evidencia tienen hasta ahora?]
 
 
 ## Índice de la bitácora
