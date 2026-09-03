@@ -21,6 +21,7 @@ Abordando el problema de una persona con discapacidad en la vida cotidiana, busc
 ## Equipo
 
 | Integrantes |
+|---|
 | Alonso Díaz|
 | Seta Santander |
 
