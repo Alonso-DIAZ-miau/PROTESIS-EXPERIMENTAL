@@ -8,7 +8,7 @@ Se trata de la creación de un aparato capaz de sustituir partes de una mano, la
 **Equipo:** [Grupo-8]  
 **Problematica:** [Creacion de un dispositivo Low Tech]  
 
-![Foto del equipo](<img width="225" height="225" alt="Screenshot 2026-05-05 231738" src="https://github.com/user-attachments/assets/2ba0916c-f318-4487-84c9-acfd02a5fc22" />)
+![Foto del equipo]
 
 ## Descripción
 
