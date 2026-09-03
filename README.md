@@ -22,7 +22,9 @@ Abordando el problema de una persona con discapacidad en la vida cotidiana, busc
 
 | Integrantes |
 |---|
-| [Nombre] |
+| Alonso Díaz|
+|---|
+| Seta Santander |
 
 
 ## Entrega 00
