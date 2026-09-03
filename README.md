@@ -37,6 +37,7 @@ El principal problema a abordar
 
 ## Índice de la bitácora
 
+- [S01 - Entrega 01](bitacora/S00.md)
 - [S01 - Entrega 01](bitacora/S01.md)
 - [S02 - Entrega 02](bitacora/S02.md)
 - [S03 - Entrega 03](bitacora/S03.md)
