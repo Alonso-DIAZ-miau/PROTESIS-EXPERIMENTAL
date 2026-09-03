@@ -27,12 +27,12 @@ Abordando el problema de una persona con discapacidad en la vida cotidiana, busc
 
 ## Entrega 00
 En la entrega 00 se encuentra la siguente informacion
-  -*Fenomeno*
-  -*Contexto*
-  -*Usuarios*
-  -*Referentes* 
-  -*Variables*
-  -*Hipotesis de dispositvo*
+  - *Fenomeno*
+  - *Contexto*
+  - *Usuarios*
+  - *Referentes* 
+  - *Variables*
+  - *Hipotesis de dispositvo*
 
 
 
