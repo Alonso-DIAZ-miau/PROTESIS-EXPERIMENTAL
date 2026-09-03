@@ -1,4 +1,6 @@
 <img width="1200" height="1200" alt="portada" src="https://github.com/user-attachments/assets/73a021fd-7a02-4319-80c0-70c1b780b968" />
+
+
 # PROTESIS-EXPERIMENTAL
 Se trata de la creación de un aparato capaz de sustituir partes de una mano, la cual por diferentes motivos puede necesitar reemplazo.
 
