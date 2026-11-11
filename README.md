@@ -1,8 +1,9 @@
+
 # Motor con puente H y sensor infrarrojo (Arduino)
 
 Mecanismo controlado con Arduino: cuando el sensor infrarrojo detecta un objeto cercano, el motor gira una cantidad fija en un sentido; cuando el objeto se aleja, gira la misma cantidad en el sentido contrario y el mecanismo vuelve a su posición inicial.
 
-![Esquema del montaje](img/circuito.png)
+![Esquema del montaje](<img width="1501" height="787" alt="Screenshot 2026-11-11 173851" src="https://github.com/user-attachments/assets/8efbe7cc-14f6-41e9-adec-f14e84599bd2" />)
 
 ## Contenido del repositorio
 
