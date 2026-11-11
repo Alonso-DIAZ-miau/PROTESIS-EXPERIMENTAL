@@ -2,7 +2,9 @@
 
 Mecanismo controlado con Arduino: cuando el sensor infrarrojo detecta un objeto cercano, el motor gira una cantidad fija en un sentido; cuando el objeto se aleja, gira la misma cantidad en el sentido contrario y el mecanismo vuelve a su posición inicial.
 
-![Esquema del montaje](img/circuito.png)
+## Esquema del montaje
+<img width="1501" height="787" alt="Screenshot 2026-11-11 173851" src="https://github.com/user-attachments/assets/3872a8b4-e202-4f22-9cdb-3bb3544fe162" />
+
 
 ## Contenido del repositorio
 
@@ -38,8 +40,6 @@ El puente H es la pieza que permite invertir el giro. Con un solo transistor el 
 No hacen falta resistencias, transistores ni diodos: el L293D ya incluye lo necesario.
 
 ## Instructivo de armado
-
-> **Importante:** arma todo con el Arduino **desconectado** del USB y conéctalo solo al final.
 
 ### 1. Coloca el L293D en el protoboard
 
@@ -78,8 +78,6 @@ Un cable del motor va al pin **3** y el otro al pin **6** del L293D. El orden no
 | VCC | Riel + (5V) |
 | GND | Riel − (GND) |
 | OUT | Pin **D2** del Arduino |
-
-Revisa las letras impresas en tu módulo: algunos traen el orden `OUT, GND, VCC` y otros `VCC, GND, OUT`.
 
 ### 6. Resumen de pines del Arduino
 
@@ -137,40 +135,4 @@ Estos valores están al inicio del archivo `.ino`:
 | `DEBOUNCE` | `250` | Milisegundos que debe mantenerse una lectura para aceptarla. Súbelo si el sensor es inestable |
 | `ACTIVO_BAJO` | `true` | Cámbialo a `false` si el motor se activa cuando **no** hay objeto |
 
-## Solución de problemas
 
-<details>
-<summary><b>El motor gira solo en un sentido</b></summary>
-
-Revisa que D5 llegue al pin 2 del L293D y D6 al pin 7. Si uno de los dos cables no hace contacto, el motor solo gira en una dirección. Si no gira en ningún sentido, revisa los pines 1, 8 y 16 (5V) y los de GND.
-</details>
-
-<details>
-<summary><b>El motor se activa cuando no hay nada cerca, o al revés</b></summary>
-
-Cambia `ACTIVO_BAJO` a `false` en el código. Si el sensor mantiene siempre la misma lectura, comprueba su alimentación y ajusta el potenciómetro del módulo, si lo tiene.
-</details>
-
-<details>
-<summary><b>El LED del sensor no enciende</b></summary>
-
-Revisa el orden de sus pines (VCC y GND), que el riel del protoboard esté alimentado y que los rieles no estén cortados a la mitad, algo común en protoboards grandes.
-</details>
-
-<details>
-<summary><b>El motor gira débil o el Arduino se reinicia</b></summary>
-
-Por el USB solo hay unos 500 mA, y el L293D pierde cerca de 1,4 V, por lo que el motor recibe aproximadamente 3,5 V. Para darle más fuerza, alimenta el **pin 8** del L293D con una fuente externa adecuada para tu motor y une su GND con el GND del Arduino. Mantén los pines 1 y 16 en 5V.
-</details>
-
-<details>
-<summary><b>El motor avanza apenas enciendo el Arduino</b></summary>
-
-Si hay un objeto frente al sensor al encender, el programa lo detecta y avanza de inmediato. Es el comportamiento esperado: retira el objeto y reinicia el Arduino.
-</details>
-
-## Ideas para mejorar
-
-- Usar un driver más potente (L298N o TB6612FNG) para motores más grandes.
-- Reemplazar el motor por un motor paso a paso o un servo si se necesita un recorrido preciso, ya que con un motor DC la distancia depende solo del tiempo.
-- Agregar finales de carrera para detener el motor en posiciones exactas.
