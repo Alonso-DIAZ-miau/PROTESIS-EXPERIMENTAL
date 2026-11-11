@@ -6,16 +6,7 @@ Mecanismo controlado con Arduino: cuando el sensor infrarrojo detecta un objeto 
 ## Esquema del montaje
 <img width="1501" height="787" alt="Screenshot 2026-11-11 173851" src="https://github.com/user-attachments/assets/8efbe7cc-14f6-41e9-adec-f14e84599bd2" />
 
-## Contenido del repositorio
 
-```
-.
-├── README.md
-├── img/
-│   └── circuito.png              # Esquema del montaje
-└── motor_puente_H/
-    └── motor_puente_H.ino        # Código para el Arduino
-```
 
 ## Cómo funciona
 
