@@ -32,7 +32,6 @@ No hacen falta resistencias, transistores ni diodos: el L293D ya incluye lo nece
 
 ## Instructivo de armado
 
-> **Importante:** arma todo con el Arduino **desconectado** del USB y conéctalo solo al final.
 
 ### 1. Coloca el L293D en el protoboard
 
@@ -71,8 +70,6 @@ Un cable del motor va al pin **3** y el otro al pin **6** del L293D. El orden no
 | VCC | Riel + (5V) |
 | GND | Riel − (GND) |
 | OUT | Pin **D2** del Arduino |
-
-Revisa las letras impresas en tu módulo: algunos traen el orden `OUT, GND, VCC` y otros `VCC, GND, OUT`.
 
 ### 6. Resumen de pines del Arduino
 
