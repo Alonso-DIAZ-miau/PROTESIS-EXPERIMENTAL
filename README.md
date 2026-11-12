@@ -169,29 +169,20 @@ Se hicieron dos prototipos del dedo para probar el diseño antes de pasar a la v
 
 | Prototipo de madera doblado | Prototipo impreso en 3D |
 |:--:|:--:|
-| <img src="piezas-3d/img/prototipos/03_madera_doblado.jpg" width="400" alt="Prototipo de madera con las articulaciones dobladas"> | <img src="piezas-3d/img/prototipos/04_impreso_3d.jpg" width="400" alt="Prototipo impreso en 3D con la cuerda"> |
+| <img width="400" height="400" alt="03_madera_doblado" src="https://github.com/user-attachments/assets/b510440d-6e34-45f7-b735-eb72ec6f409d" /> | <img width="400" height="400" alt="04_impreso_3d" src="https://github.com/user-attachments/assets/8add3cc1-6ac3-4935-a0b4-223aef96276f" /> |
+
 
 Primeras pruebas, con piezas impresas reforzadas con cartón y cinta de enmascarar:
 
-<img src="piezas-3d/img/prototipos/05_primeras_pruebas_carton_cinta.jpg" width="300" alt="Primeras pruebas del dedo con piezas impresas, cartón y cinta">
+<img width="300" height="300" alt="05_primeras_pruebas_carton_cinta" src="https://github.com/user-attachments/assets/ea1f05c3-7250-46d6-ad63-5320e889330a" />
+
 
 ### Piezas impresas
 
-Algunas de las piezas ya impresas: el semicilindro del brazalete, piezas de las articulaciones y otras piezas pequeñas.
+Algunas de las piezas ya impresas
 
-<img src="piezas-3d/img/11_piezas_impresas.jpg" width="400" alt="Piezas impresas en 3D: brazalete, articulaciones y otras piezas">
+<img width="400" height="400" alt="11_piezas_impresas" src="https://github.com/user-attachments/assets/a969e51c-2e62-4c62-966e-abd8db41710b" />
 
 Las piezas del dedo, los contenedores, la lista de materiales, los ajustes de impresión, el armado y las ideas para el sistema de cuerdas están en [`piezas-3d/README.md`](piezas-3d/README.md).
 
-### Contenido de la carpeta `piezas-3d/`
 
-```
-piezas-3d/
-├── README.md
-├── img/
-│   ├── bocetos/                 # Bocetos a mano de la idea
-│   ├── prototipos/              # Fotos de los prototipos físicos
-│   └── ...                      # Capturas del modelo y fotos de las piezas impresas
-└── modelo/
-    └── modelo_etapa_2.3dm       # Modelo 3D (Rhinoceros 7)
-```
