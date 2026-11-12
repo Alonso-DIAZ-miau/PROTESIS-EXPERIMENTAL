@@ -126,6 +126,10 @@ Estos valores están al inicio del archivo `.ino`:
 | `ACTIVO_BAJO` | `true` | Cámbialo a `false` si el motor se activa cuando **no** hay objeto |
 
 
+## Diagrama de flujo
+
+<img width="3128" height="2903" alt="diagrama_flujo_codigo" src="https://github.com/user-attachments/assets/49c36711-0c35-4c64-9890-54a577db9577" />
+
 ---
 
 ## Mecanismo impreso en 3D
