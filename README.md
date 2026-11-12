@@ -174,3 +174,72 @@ Si hay un objeto frente al sensor al encender, el programa lo detecta y avanza d
 - Usar un driver más potente (L298N o TB6612FNG) para motores más grandes.
 - Reemplazar el motor por un motor paso a paso o un servo si se necesita un recorrido preciso, ya que con un motor DC la distancia depende solo del tiempo.
 - Agregar finales de carrera para detener el motor en posiciones exactas.
+
+---
+
+## Mecanismo impreso en 3D
+
+El motor mueve un **dedo mecánico** mediante un sistema de cuerdas, y toda la electrónica se guarda en contenedores montados sobre un **brazalete**. El detalle completo (piezas, ajustes de impresión, armado e ideas para mejorar el sistema de cuerdas) está en [`piezas-3d/`](piezas-3d/README.md).
+
+[![Vista general de las piezas](piezas-3d/img/01_vista_general.png)](piezas-3d/README.md)
+
+### Fuente y créditos
+
+El diseño del dedo **parte de un modelo existente**, tomado de este video de YouTube:
+
+- [Video del modelo original](https://www.youtube.com/watch?v=2EEjio4TvL8&t=4s)
+
+Este proyecto usa ese modelo como base y le hace **cambios leves** para adaptarlo al brazalete, a los contenedores y a la electrónica de este repositorio. El mérito del diseño original es de su autor.
+
+> Si vas a redistribuir los archivos del modelo (por ejemplo, el `.3dm` de la carpeta `piezas-3d/modelo/`), revisa en la descripción del video bajo qué licencia comparte el autor su trabajo y respétala.
+
+### Bocetaje
+
+Antes de modelar y construir se hicieron bocetos a mano para definir cómo iba a funcionar el conjunto.
+
+| Idea general | Mecanismo de cuerda |
+|:--:|:--:|
+| <img src="piezas-3d/img/bocetos/01_brazalete_y_dedo.jpg" width="300" alt="Boceto de la mano con el brazalete en la muñeca y el dedo mecánico"> | <img src="piezas-3d/img/bocetos/02_carrete_y_cuerda.jpg" width="300" alt="Boceto del carrete en el brazalete y la cuerda hacia el dedo"> |
+
+- **Idea general (izquierda):** el brazalete va en la muñeca, con un módulo marcado en rojo sobre él, y el dedo mecánico, dividido en segmentos y marcado en morado, se dibujó sobre un dedo de la mano.
+- **Mecanismo de cuerda (derecha):** en el brazalete se dibujó un carrete con flechas de giro en los dos sentidos, y una línea morada que baja por la mano hasta el dedo, que sería la cuerda. Arriba a la derecha hay un detalle del dedo con sus articulaciones y la cuerda recorriendo su costado.
+
+### Prototipos
+
+Se hicieron dos prototipos del dedo para probar el diseño antes de pasar a la versión final:
+
+- **Prototipo de madera:** tallado a mano. Sirvió para probar de forma rápida y barata el tamaño, las proporciones y cómo se doblan las articulaciones.
+- **Prototipo impreso en 3D (blanco):** hecho a partir del modelo de la carpeta `piezas-3d/`, con falange base, falange media y punta. Sirve para probar las bisagras reales y el paso de la cuerda.
+
+| Los dos prototipos juntos | Comparación vista desde arriba |
+|:--:|:--:|
+| <img src="piezas-3d/img/prototipos/01_madera_y_3d.jpg" width="400" alt="Prototipo de madera y prototipo impreso en 3D"> | <img src="piezas-3d/img/prototipos/02_comparacion.jpg" width="400" alt="Comparación de los dos prototipos"> |
+
+| Prototipo de madera doblado | Prototipo impreso en 3D |
+|:--:|:--:|
+| <img src="piezas-3d/img/prototipos/03_madera_doblado.jpg" width="400" alt="Prototipo de madera con las articulaciones dobladas"> | <img src="piezas-3d/img/prototipos/04_impreso_3d.jpg" width="400" alt="Prototipo impreso en 3D con la cuerda"> |
+
+Primeras pruebas, con piezas impresas reforzadas con cartón y cinta de enmascarar:
+
+<img src="piezas-3d/img/prototipos/05_primeras_pruebas_carton_cinta.jpg" width="300" alt="Primeras pruebas del dedo con piezas impresas, cartón y cinta">
+
+### Piezas impresas
+
+Algunas de las piezas ya impresas: el semicilindro del brazalete, piezas de las articulaciones y otras piezas pequeñas.
+
+<img src="piezas-3d/img/11_piezas_impresas.jpg" width="400" alt="Piezas impresas en 3D: brazalete, articulaciones y otras piezas">
+
+Las piezas del dedo, los contenedores, la lista de materiales, los ajustes de impresión, el armado y las ideas para el sistema de cuerdas están en [`piezas-3d/README.md`](piezas-3d/README.md).
+
+### Contenido de la carpeta `piezas-3d/`
+
+```
+piezas-3d/
+├── README.md
+├── img/
+│   ├── bocetos/                 # Bocetos a mano de la idea
+│   ├── prototipos/              # Fotos de los prototipos físicos
+│   └── ...                      # Capturas del modelo y fotos de las piezas impresas
+└── modelo/
+    └── modelo_etapa_2.3dm       # Modelo 3D (Rhinoceros 7)
+```
