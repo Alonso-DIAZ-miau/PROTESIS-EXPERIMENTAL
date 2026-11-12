@@ -81,12 +81,12 @@ Un cable del motor va al pin **3** y el otro al pin **6** del L293D. El orden no
 
 ### 7. Revisión final antes de encender
 
-- [ ] La muesca del L293D está en el lado correcto y el chip no está invertido.
-- [ ] Los pines 1, 8 y 16 están en 5V.
-- [ ] Los pines 4, 5, 12 y 13 están en GND.
-- [ ] D5 llega al pin 2 y D6 al pin 7 del L293D.
-- [ ] El sensor está alimentado (su LED de encendido prende al conectar el Arduino).
-- [ ] No hay cables sueltos ni tocándose entre rieles.
+- La muesca del L293D está en el lado correcto y el chip no está invertido.
+- Los pines 1, 8 y 16 están en 5V.
+- Los pines 4, 5, 12 y 13 están en GND.
+- D5 llega al pin 2 y D6 al pin 7 del L293D.
+- El sensor está alimentado (su LED de encendido prende al conectar el Arduino).
+- No hay cables sueltos ni tocándose entre rieles.
 
 ## Cargar el código
 
@@ -135,15 +135,13 @@ El motor mueve un **dedo mecánico** mediante un sistema de cuerdas, y toda la e
 <img width="1240" height="687" alt="01_vista_general" src="https://github.com/user-attachments/assets/2e57a750-15d6-4618-a9c1-d20f915b52b8" />
 
 
-### Fuente y créditos
+### Créditos
 
 El diseño del dedo **parte de un modelo existente**, tomado de este video de YouTube:
 
 - [Video del modelo original](https://www.youtube.com/watch?v=2EEjio4TvL8&t=4s)
 
-Este proyecto usa ese modelo como base y le hace **cambios leves** para adaptarlo al brazalete, a los contenedores y a la electrónica de este repositorio. El mérito del diseño original es de su autor.
-
-> Si vas a redistribuir los archivos del modelo (por ejemplo, el `.3dm` de la carpeta `piezas-3d/modelo/`), revisa en la descripción del video bajo qué licencia comparte el autor su trabajo y respétala.
+Este proyecto usa ese modelo como base y le hace **cambios** para adaptarlo al brazalete, a los contenedores y a la electrónica de este repositorio. El mérito del diseño original es de su autor.
 
 ### Bocetaje
 
@@ -161,7 +159,7 @@ Antes de modelar y construir se hicieron bocetos a mano para definir cómo iba a
 Se hicieron dos prototipos del dedo para probar el diseño antes de pasar a la versión final:
 
 - **Prototipo de madera:** tallado a mano. Sirvió para probar de forma rápida y barata el tamaño, las proporciones y cómo se doblan las articulaciones.
-- **Prototipo impreso en 3D (blanco):** hecho a partir del modelo de la carpeta `piezas-3d/`, con falange base, falange media y punta. Sirve para probar las bisagras reales y el paso de la cuerda.
+- **Prototipo impreso en 3D (blanco):** hecho a partir del modelo del video, con falange base, falange media y punta. Sirve para probar las bisagras reales y el paso de la cuerda.
 
 | Los dos prototipos juntos | Comparación vista desde arriba |
 |:--:|:--:|
