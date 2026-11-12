@@ -165,7 +165,8 @@ Se hicieron dos prototipos del dedo para probar el diseño antes de pasar a la v
 
 | Los dos prototipos juntos | Comparación vista desde arriba |
 |:--:|:--:|
-| <img src="piezas-3d/img/prototipos/01_madera_y_3d.jpg" width="400" alt="Prototipo de madera y prototipo impreso en 3D"> | <img src="piezas-3d/img/prototipos/02_comparacion.jpg" width="400" alt="Comparación de los dos prototipos"> |
+| <img width="400" height="400" alt="01_madera_y_3d" src="https://github.com/user-attachments/assets/8429281e-cf2b-4a1a-9eb4-14828d92d2eb" /> | <img width="400" height="400" alt="02_comparacion" src="https://github.com/user-attachments/assets/ace48c45-bb25-4185-8d81-627ceb85c313" /> |
+
 
 | Prototipo de madera doblado | Prototipo impreso en 3D |
 |:--:|:--:|
