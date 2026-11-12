@@ -151,7 +151,7 @@ Antes de modelar y construir se hicieron bocetos a mano para definir cómo iba a
 
 | Idea general | Mecanismo de cuerda |
 |:--:|:--:|
-| <img width="300" height="1600" alt="01_brazalete_y_dedo" src="https://github.com/user-attachments/assets/8063c208-72a6-4da0-bd7d-f1d0a8542cbe" /> | <img width="300" height="1600" alt="02_carrete_y_cuerda" src="https://github.com/user-attachments/assets/ac465944-fccb-4d6e-9651-35e9249ba121" />|
+| <img width="300" height="300" alt="01_brazalete_y_dedo" src="https://github.com/user-attachments/assets/8063c208-72a6-4da0-bd7d-f1d0a8542cbe" /> | <img width="300" height="300" alt="02_carrete_y_cuerda" src="https://github.com/user-attachments/assets/ac465944-fccb-4d6e-9651-35e9249ba121" />|
 
 - **Idea general (izquierda):** el brazalete va en la muñeca, con un módulo marcado en rojo sobre él, y el dedo mecánico, dividido en segmentos y marcado en morado, se dibujó sobre un dedo de la mano.
 - **Mecanismo de cuerda (derecha):** en el brazalete se dibujó un carrete con flechas de giro en los dos sentidos, y una línea morada que baja por la mano hasta el dedo, que sería la cuerda. Arriba a la derecha hay un detalle del dedo con sus articulaciones y la cuerda recorriendo su costado.
